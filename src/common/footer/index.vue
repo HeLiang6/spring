@@ -60,6 +60,7 @@ export default {
     bottom: 0;
     left: 0;
    border-top: 1px solid #ddd;
+   background: #ffffff;
 }
 
 #footer>ul{

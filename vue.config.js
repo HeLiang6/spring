@@ -4,8 +4,11 @@ module.exports={
         open:true,
         proxy:{
             "/api":{
-                target:"hppt//:39.97.33.178",
-                changeOrigin:true
+                target:"http://m.springtour.com/m/home/queryContent",
+                changeOrigin:true,
+                pathRewrite: {
+                    '^api':'http://m.springtour.com/m/home/queryContent'
+                }
             }
         }
     },
